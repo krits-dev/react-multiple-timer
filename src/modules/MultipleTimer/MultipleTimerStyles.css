@@ -1,0 +1,21 @@
+.multiple-timer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: auto;
+  max-width: 532px;
+  min-width: 320px;
+  margin: 40px auto;
+}
+
+.multiple-timer-buttons {
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+}
+
+.multiple-timer-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,15 @@
+.button {
+  position: relative;
+  background-color: #efefef;
+  border: 1px solid #6a6a6a;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.button:enabled:active {
+  top: 1px;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}

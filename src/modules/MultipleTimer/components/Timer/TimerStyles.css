@@ -1,0 +1,20 @@
+.timer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 260px;
+  gap: 10px;
+  padding: 40px 0;
+}
+
+.timer-count {
+  width: fit-content;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+}
