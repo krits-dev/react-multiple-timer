@@ -1,11 +1,11 @@
-import { SyntheticEvent } from 'react'
+import { MouseEvent } from 'react'
 import './ButtonStyles.css'
 
-type Props = {
+type ButtonProps = {
   text?: string
-  buttonType?: 'button'
+  buttonType?: 'button' | 'submit' | 'reset'
   isDisabled?: boolean
-  onClick?: (e: SyntheticEvent) => void
+  onClick?: (e: MouseEvent<HTMLButtonElement>) => void
 }
 
 function Button({
@@ -13,7 +13,7 @@ function Button({
   buttonType = 'button',
   isDisabled = false,
   onClick = () => null,
-}: Props) {
+}: ButtonProps) {
   return (
     <button
       className='button'
